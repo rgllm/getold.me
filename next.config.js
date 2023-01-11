@@ -5,6 +5,9 @@ const nextConfig = {
     // Required:
     appDir: true,
   },
+  images: {
+    domains: ['upcdn.io', 'replicate.delivery'],
+  },
 };
 
 module.exports = nextConfig;

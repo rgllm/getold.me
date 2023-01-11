@@ -14,6 +14,8 @@
     "singleQuote": true
   },
   "dependencies": {
+    "@upstash/ratelimit": "0.1.5",
+    "@upstash/redis": "1.19.1",
     "clsx": "1.2.1",
     "framer-motion": "8.4.2",
     "next": "latest",
@@ -21,12 +23,14 @@
     "react-dom": "18.2.0",
     "react-uploader": "3.0.2",
     "react-use-measure": "2.1.1",
+    "request-ip": "3.3.0",
     "uploader": "3.0.2"
   },
   "devDependencies": {
     "@types/node": "18.0.3",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
+    "@types/request-ip": "0.0.37",
     "autoprefixer": "10.4.13",
     "eslint": "8.19.0",
     "eslint-config-next": "latest",
