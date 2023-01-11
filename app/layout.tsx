@@ -9,6 +9,7 @@ export default function RootLayout({
   return (
     <html>
       <head>
+        <title>GetOld.Me</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"

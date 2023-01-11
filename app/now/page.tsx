@@ -5,8 +5,8 @@ import { UploadDropzone } from 'react-uploader';
 import { Uploader } from 'uploader';
 import Link from 'next/link';
 
-import Footer from '@/components/Footer';
-import ResizablePanel from '@/components/ResizablePanel';
+import Footer from '../Footer';
+import ResizablePanel from './ResizablePanel';
 
 const uploader = Uploader({ apiKey: 'free' });
 const options = {
@@ -62,10 +62,10 @@ export default function Page() {
   );
 
   return (
-    <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center py-2">
-      <main className="mt-4 flex w-full flex-1 flex-col items-center justify-center px-4 text-center">
+    <div className="flex flex-col items-center justify-center max-w-6xl min-h-screen py-2 mx-auto">
+      <main className="flex flex-col items-center justify-center flex-1 w-full px-4 mt-4 text-center">
         <Link href="/">
-          <h1 className="font-display mx-auto mb-20 max-w-4xl text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
+          <h1 className="max-w-4xl mx-auto mb-20 text-5xl font-bold tracking-normal font-display text-slate-900 sm:text-7xl">
             👵 Get
             <span className="relative whitespace-nowrap text-[#3290EE]">
               <span className="relative">Old</span>

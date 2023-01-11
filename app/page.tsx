@@ -1,31 +1,31 @@
-import Footer from '@/components/Footer';
+import Footer from './Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Page() {
   return (
-    <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center py-2">
-      <main className="mt-10 flex w-full flex-1 flex-col items-center justify-center px-4 text-center">
-        <h1 className="font-display mx-auto max-w-4xl text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
+    <div className="flex flex-col items-center justify-center max-w-6xl min-h-screen py-2 mx-auto">
+      <main className="flex flex-col items-center justify-center flex-1 w-full px-4 mt-10 text-center">
+        <h1 className="max-w-4xl mx-auto text-5xl font-bold tracking-normal font-display text-slate-900 sm:text-7xl">
           👵 Get
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <span className="relative">Old</span>
           </span>
           .Me 👴
         </h1>
-        <p className="mx-auto mt-12 max-w-xl text-lg leading-7 text-slate-700">
+        <p className="max-w-xl mx-auto mt-12 text-lg leading-7 text-slate-700">
           80 years old you with the power of AI. <br />
           Upload a photo and check out how you will look.
         </p>
         <Link
-          className="mt-8 rounded-full bg-black px-4 py-2 font-medium text-white hover:bg-black/80 sm:mt-10"
+          className="px-4 py-2 mt-8 font-medium text-white bg-black rounded-full hover:bg-black/80 sm:mt-10"
           href="/now"
         >
           Check it out
         </Link>
-        <div className="mt-6 flex w-full flex-col items-center justify-between sm:mt-10">
-          <div className="mt-4 flex flex-col space-y-10"></div>
-          <div className="mt-4 flex flex-col space-y-10">
+        <div className="flex flex-col items-center justify-between w-full mt-6 sm:mt-10">
+          <div className="flex flex-col mt-4 space-y-10"></div>
+          <div className="flex flex-col mt-4 space-y-10">
             <div className="flex flex-col sm:flex-row sm:space-x-2">
               <div>
                 <h2 className="mb-1 text-lg font-medium">Original photo</h2>
