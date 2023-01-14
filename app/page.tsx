@@ -1,34 +1,45 @@
-import Footer from './Footer';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import Footer from './Footer';
+import Header from './Header';
 
 export default function Page() {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl min-h-screen py-2 mx-auto">
-      <main className="flex flex-col items-center justify-center flex-1 w-full px-4 mt-10 text-center">
-        <h1 className="max-w-4xl mx-auto text-5xl font-bold tracking-normal font-display text-slate-900 sm:text-7xl">
-          👵 Get
-          <span className="relative whitespace-nowrap text-[#3290EE]">
-            <span className="relative">Old</span>
-          </span>
-          .Me 👴
-        </h1>
+      <Header />
+      <main className="flex flex-col items-center flex-1 w-full px-4 mt-4 text-center">
         <p className="max-w-xl mx-auto mt-12 text-lg leading-7 text-slate-700">
           80 years old you with the power of AI. <br />
           Upload a photo and check out how you will look.
         </p>
         <Link
-          className="px-4 py-2 mt-8 font-medium text-white bg-black rounded-full hover:bg-black/80 sm:mt-10"
+          className="mt-8 inline-flex items-center rounded-md border border-transparent bg-[#e1a416] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#e1a416] focus:outline-none focus:ring-2 focus:ring-[#e1a416] focus:ring-offset-2"
           href="/now"
         >
-          Check it out
+          Check it now
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-5 h-5 ml-3 -mr-1"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+            />
+          </svg>
         </Link>
+
         <div className="flex flex-col items-center justify-between w-full mt-6 sm:mt-10">
           <div className="flex flex-col mt-4 space-y-10"></div>
           <div className="flex flex-col mt-4 space-y-10">
             <div className="flex flex-col sm:flex-row sm:space-x-2">
               <div>
-                <h2 className="mb-1 text-lg font-medium">Original photo</h2>
+                <h2 className="mb-1 text-lg font-medium">Original</h2>
                 <Image
                   alt="Original Photo"
                   src="/child.jpeg"
@@ -38,9 +49,7 @@ export default function Page() {
                 />
               </div>
               <div className="mt-8 sm:mt-0">
-                <h2 className="mb-1 text-lg font-medium">
-                  80 years later photo
-                </h2>
+                <h2 className="mb-1 text-lg font-medium">80 years later</h2>
                 <Image
                   alt="80 years later photo"
                   width={320}
@@ -52,7 +61,7 @@ export default function Page() {
             </div>
           </div>
           <p className="mt-2 mb-10 text-xs text-gray-500">
-            This person was generated through thispersondoesnotexist.com.
+            The original photo was generated through thispersondoesnotexist.com.
           </p>
         </div>
       </main>

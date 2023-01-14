@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -16,7 +17,7 @@
   "dependencies": {
     "@upstash/ratelimit": "0.1.5",
     "@upstash/redis": "1.19.1",
-    "clsx": "1.2.1",
+    "@vercel/analytics": "0.1.8",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
