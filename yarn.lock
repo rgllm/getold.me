@@ -271,10 +271,10 @@
   resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.1.5.tgz#345fe6e21c047213564c9abfc125ef92a60834c6"
   integrity sha512-v0zq3Xpq42HQBvXDvm0C4djYvKC5TjHG29uCpbIQcOw0znJNroHewI8y4Yk4tBeEF1rvj2RjDkFihjCp6uTExQ==
 
-"@upstash/redis@1.19.1":
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.19.1.tgz#1225470975039c8d7ee4f1a8993f8f6c4524d8a1"
-  integrity sha512-oH621FYa8wEnBXWXabNssiKrpITK/x0grpisn2WaIvukH3oij+lB41B9uEGUzYS93RfQvGAsgEb23FYremqgZA==
+"@upstash/redis@1.19.3":
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.19.3.tgz#50cdb5c6a1daeaaea91952cfca3a850804498f04"
+  integrity sha512-s65cUpjMIrUeRy0oxhDwo2vwbHbs1FawVl3bsNioXqRqISTNLMqDtgktaefei4/V1DI+eymvbz32m0CpFJZPKQ==
   dependencies:
     isomorphic-fetch "^3.0.0"
 
