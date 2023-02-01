@@ -1988,10 +1988,10 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.3.0.tgz#252a8e2fb890c683fb9e3368682eb4cbd5a43ff6"
-  integrity sha512-oi+AUWBE4+uRJlLCOTQ7RZijY6HhajbdAxWq6FG1RqMeEiNelXgrVqPtpsZquaMBg+yIBMq2B6H3Yi9oW8u1Xw==
+react-uploader@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.4.0.tgz#737eb5e398b8c1fa84db85fb1b3285c54a1b66ad"
+  integrity sha512-hxnSKsokP5G/Y3GxpGtIKxe6yjG1eTaKZP2yBtJYKzhcEcyZ4FC/VK6eNo4iJTG763zLahQ/yIeL5u7YOJBKnw==
   dependencies:
     uploader "^3.3.0"
 
