@@ -266,11 +266,6 @@
     "@typescript-eslint/types" "5.48.1"
     eslint-visitor-keys "^3.3.0"
 
-"@upload-io/upload-api-client-upload-js@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@upload-io/upload-api-client-upload-js/-/upload-api-client-upload-js-2.14.0.tgz#d2fd23c8607ad60ef5328ef27c748b2f80f68c18"
-  integrity sha512-mlEqPNhnZQh87EPuYAEPjeRtbg8LaaK2ronwDQomYmc9HGLU4pEBy20JJlIQ4wbfc9v5P7oskS87zRL3gIwVsg==
-
 "@upload-io/upload-api-client-upload-js@^2.15.0":
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/@upload-io/upload-api-client-upload-js/-/upload-api-client-upload-js-2.15.0.tgz#172cf92805f5bbc74a30172f5f1dc6841bd6ae9e"
@@ -2355,14 +2350,6 @@ update-browserslist-db@^1.0.9:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-upload-js@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.8.0.tgz#44daa51f553feae0ea1b019e78ab43c4c91fc7f7"
-  integrity sha512-an/f11ilO8W4XKkhapywE9uBIV75TZefdHYF6k0P9gCCu2KB8z9pRO64I4JpNfR0wJmTx1wb1uynK8NEHo6+Fg==
-  dependencies:
-    "@upload-io/upload-api-client-upload-js" "^2.14.0"
-    progress-smoother "^1.4.0"
-
 upload-js@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.9.0.tgz#d352d246fa55884f4aa18699fcdf955d6a6829b6"
@@ -2371,16 +2358,7 @@ upload-js@^2.9.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.3.0.tgz#9c502937defc4ec3c6580c219ebe33a0c5b5d1a8"
-  integrity sha512-Px1AMX8FKPB2aBdBejZQEUksn9djaG69skjl0ue0VkuF+R9/pLQ8ltFKhIMTphY6MmmIi03jezNIsxW9P2h8/Q==
-  dependencies:
-    classnames "^2.2.6"
-    preact "^10.6.5"
-    upload-js "^2.8.0"
-
-uploader@^3.4.0:
+uploader@3.4.0, uploader@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.4.0.tgz#7222f0a4072a411c4dbe56a77f00398014522f2a"
   integrity sha512-82UGi8HlU2d9kTfoM9mtDxVCVmfsIB8PYO5mSJRZdQunIL2ukZ6thNDDmd34SHFgyS6w6BV1+LlHfQPPYMBylA==
