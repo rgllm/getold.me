@@ -341,22 +341,22 @@
   resolved "https://registry.yarnpkg.com/@upload-io/upload-api-client-upload-js/-/upload-api-client-upload-js-2.15.0.tgz#172cf92805f5bbc74a30172f5f1dc6841bd6ae9e"
   integrity sha512-UGqT4wxCDhTTKnTLvqtKCyPJSswA2z6/Z6/sMakWGdJBBuwCHcOyXgoWafbPILrgWp3oMMQjnTfwwMBmR0O54w==
 
-"@upstash/core-analytics@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@upstash/core-analytics/-/core-analytics-0.0.2.tgz#bfb04c346631c1549709af8c11805be2251b66ef"
-  integrity sha512-mi6dDaHC1pnsFLXg0nXJOLywG7TA1BOpq5JSFWXBG5zgViDHZVPR51QL4XwzkktZIWUTWVVHk+5dhkhohIezFA==
+"@upstash/core-analytics@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@upstash/core-analytics/-/core-analytics-0.0.3.tgz#b16b936bafbdf92763b90e6fc1d903cf9cb1c582"
+  integrity sha512-81kK0rCpNunSJOhr37mTufqbNE3JhssA2RQsSjNxzq2nR/FCPK3RZWvQxuZoJrfO4vPl2FfytZAy02jTyUVpjg==
   dependencies:
     "@upstash/redis" "^1.19.3"
     next "13.1.6"
     react "^18.2.0"
     zod "^3.20.0"
 
-"@upstash/ratelimit@0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.3.5.tgz#24d8353d59628f52aef6386d3744469db8f7feb7"
-  integrity sha512-L9rrGWHtIaz2EEOize7ApL3W9hIpi2KvhZ76LssaeHvb+R1CBTWmWImEQTr9EntjkGr3o1k2jThUpzgjC2XhtA==
+"@upstash/ratelimit@0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.3.6.tgz#c26b9ac940fec5fe26fbf4ac6e38ec86230a85c4"
+  integrity sha512-c0AkMC6rY1NsRiRuCwMEin221sVuteyFV+gTGSNxGu9B3LTkHEDAiBLYnd/BNSwB3/AKhBEXMH4HJEXOsZMZfA==
   dependencies:
-    "@upstash/core-analytics" "0.0.2"
+    "@upstash/core-analytics" "0.0.3"
 
 "@upstash/redis@1.20.0", "@upstash/redis@^1.19.3":
   version "1.20.0"
