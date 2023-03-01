@@ -2106,12 +2106,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.7.1.tgz#c4be4e603bb347c81814f032f3f8161c88e62173"
-  integrity sha512-IcNiAevKBInDstRfOOI6wPlQczvII6iT4fxDN8HEeAwMFmgVX9N9KhcTCd6Upi1kYL3FKvrMcsxha4wkxt1TrA==
+react-uploader@3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.8.0.tgz#a65bc9433afc693f880a6cda21419293018761fd"
+  integrity sha512-vuQSBPg7Jtc/dGlU04g3+3XC1U36L0LKbtl99pVmFGqBVf6wYVswY4+PCsVcdC7HNc6p3uW0ijsHpB991JeKiQ==
   dependencies:
-    uploader "^3.6.0"
+    uploader "^3.7.0"
 
 react@18.2.0, react@^18.2.0:
   version "18.2.0"
@@ -2487,10 +2487,10 @@ uploader@3.6.1:
     preact "^10.6.5"
     upload-js "^2.11.0"
 
-uploader@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.6.0.tgz#1f3c3f0d74c7b22f05e7942e26dcfe94d63832ab"
-  integrity sha512-dU4mChatI0YmHlYWRxPn+lfxSzg46NmS6MHnVNy1MiJUUb6eU1dJFzxQfX3kwo1GTffwcP8vHtEB1A7HJDaujg==
+uploader@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.7.0.tgz#1cd1d9549e9f0a644e32df00d5977dfd0a6b3a05"
+  integrity sha512-tSRcrz8qWE2GvZVWoJPe+FKuuV+GsTHQ9tOP4mox36g/oITOaFmfPvWVO26ELhOp5tl0cIWFtM/rR5vqhGwhHw==
   dependencies:
     classnames "^2.2.6"
     preact "^10.6.5"
