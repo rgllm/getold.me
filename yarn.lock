@@ -2013,12 +2013,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.10.0.tgz#1fe1e2af5df2fbb32055da05493ae2982f71a9f1"
-  integrity sha512-X59mBrV8+E8QrGiajvgJodrZbsHxHGxBE1/Ym4FRe6+Oy8V8FcVwc5CVuwiKaJn1wk1tN8ufK62HY93mvz62PQ==
+react-uploader@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.11.0.tgz#ec88f0792d491822b2282f0be09a2632ca485ff2"
+  integrity sha512-bs1ChzxM/BNGFb2cm5CzFwo7PnPQ6Rw8uFOOkILZh8MMS2jH5VMklZUWmjuTTitekKm1HQgGjuxjV8dKqriggw==
   dependencies:
-    uploader "^3.9.0"
+    uploader "^3.10.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2380,10 +2380,19 @@ upload-js@^2.11.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.9.0, uploader@^3.9.0:
+uploader@3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.9.0.tgz#e31e845fa6967e69e4edb70a1dfce90fe50e6c80"
   integrity sha512-sv1p4ZFXQReJNsYGBwToREGqh/SsLgmt8mnpluux8ui78vhwSiHt7LOgfRm7iCguYiPQcVS9NsdkJulq4J46qQ==
+  dependencies:
+    classnames "^2.2.6"
+    preact "^10.6.5"
+    upload-js "^2.11.0"
+
+uploader@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.10.0.tgz#a3a720d3b30424ab23a9a36827886e3439886969"
+  integrity sha512-nGP2Ngf6/UdeGMRcuaPbFoLTQuPl+wrBQi8OwWIt169GvdX1+ztMJageVDw+5mXzWRGN2SyjkWXDr6onglURxg==
   dependencies:
     classnames "^2.2.6"
     preact "^10.6.5"
