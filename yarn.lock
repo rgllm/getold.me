@@ -295,10 +295,10 @@
   dependencies:
     "@upstash/redis" "^1.19.3"
 
-"@upstash/ratelimit@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.4.0.tgz#8fc4e31d2b4f1e3806e5fe2f79c85873b3a4e59c"
-  integrity sha512-727GI50EoK0PjSLZn4mHdFhZsdMWBb/HYm/vMqsYMdtKtC3hZW8NhN51IZqZWVqziLci2VEptZtTAK4AOmGIsg==
+"@upstash/ratelimit@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.4.1.tgz#1b0633b3a5b5d4c9c6d8fd766585927ac9d6c5cf"
+  integrity sha512-NdL4E8jOrqSIOuDFVx5TLdh0/2tefgnrzBeqx+soy1cjGnx8sKdCZpOi4xhG5rm6F9ch89ZzIcBm6iRhx+tLgA==
   dependencies:
     "@upstash/core-analytics" "^0.0.6"
 
