@@ -2444,7 +2444,24 @@ upload-js@^2.11.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.18.0, uploader@^3.18.0:
+upload-js@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.13.0.tgz#69825288a132ae318cae61fe72d34682c8e38cb2"
+  integrity sha512-4AhFwoBcZsF2/zzA7UKSlfQ3qVwyjwoCFL2MlmG6bwcQZnHKNioytgM+HYTNlG7sC2QjsDeO2DS38uaS1v1g+g==
+  dependencies:
+    "@upload-io/upload-api-client-upload-js" "^2.15.0"
+    progress-smoother "^1.4.0"
+
+uploader@3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.19.0.tgz#b4eeac98a87e7021bce1d441333623a4dd10090e"
+  integrity sha512-He/JWym9eFI4oNxxPBLXJ1fwWDgRC3/0OxceeFVnUHHdgx4GY7mWzP2ACwfURxvG7zA81+I1wCWE5GvV0B+DfQ==
+  dependencies:
+    classnames "^2.2.6"
+    preact "^10.6.5"
+    upload-js "^2.13.0"
+
+uploader@^3.18.0:
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.18.0.tgz#f0846818ec614a5e1a9e5348e30bc7fc9705d131"
   integrity sha512-JUDJA7dtSoYn4D/BJlzQ7ECr/xEIkBHPHzrzckv4bBeJJq8y1fe4Kb/wFYP8AxYaOuVPmngDuHLA84Mulr51AQ==
