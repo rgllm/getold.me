@@ -2085,12 +2085,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.19.0.tgz#0053bf5b4a607100c33eb9d564e97c8a9c05d595"
-  integrity sha512-aDwavGpKl4ksfredjmzFuXWvMtKkuBW3F2r2kH5mIo0aH/I2iC+uDA34iyIRYK7EVZqHAl1HKl0EIdq69QBpUg==
+react-uploader@3.20.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.20.0.tgz#b58bb8610afff3d096b2d5dd03e34569a9a04243"
+  integrity sha512-cSBZk8pY09oR8CV68fV9xYg27ivA+XLsOcISrB8rOnzoZVNNJmTusx2lrQgru9maZy0DYNK0LZRTPk9c/K+HHw==
   dependencies:
-    uploader "^3.19.0"
+    uploader "^3.20.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2493,7 +2493,15 @@ upload-js@^2.13.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.19.0, uploader@^3.19.0:
+upload-js@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.14.0.tgz#b85517111fcec9dc7263cddbb8ae48e2dedb9ac2"
+  integrity sha512-ewKxoOkndy6/A91XOM34DlRa5B/vXyQZgMzr8oATuPpfvPGH/Vjfll88aOF+3pcWtOKZjyp8gHF1QjRsMyWBiQ==
+  dependencies:
+    "@upload-io/upload-api-client-upload-js" "^2.15.0"
+    progress-smoother "^1.4.0"
+
+uploader@3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.19.0.tgz#b4eeac98a87e7021bce1d441333623a4dd10090e"
   integrity sha512-He/JWym9eFI4oNxxPBLXJ1fwWDgRC3/0OxceeFVnUHHdgx4GY7mWzP2ACwfURxvG7zA81+I1wCWE5GvV0B+DfQ==
@@ -2501,6 +2509,15 @@ uploader@3.19.0, uploader@^3.19.0:
     classnames "^2.2.6"
     preact "^10.6.5"
     upload-js "^2.13.0"
+
+uploader@^3.20.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.20.0.tgz#b3fc3b7fc9e3d7ae222f7983a4ef11db3ff7220f"
+  integrity sha512-HQnjMgmDLylHVC3oaPxJ+1/S9vBDMXR0pcA6gHpQ61riXLT6wrgRigBtSob4xJ3zdYx6uPFP8jz+1tZxKhINFQ==
+  dependencies:
+    classnames "^2.2.6"
+    preact "^10.6.5"
+    upload-js "^2.14.0"
 
 uri-js@^4.2.2:
   version "4.4.1"
