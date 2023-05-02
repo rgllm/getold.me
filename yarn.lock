@@ -344,10 +344,10 @@
   dependencies:
     "@upstash/core-analytics" "^0.0.6"
 
-"@upstash/redis@1.20.4":
-  version "1.20.4"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.20.4.tgz#6c02665bc0e9b7c56f37342003fc58139c994d22"
-  integrity sha512-U7j7py+yPvafB5KS7o+F19j2CWzZCwmQ4Tvs+n2lpCWuw/8CeFtWrFWPtQa5dgrVu6tu+Ki9DmhDiAbgMS5fGA==
+"@upstash/redis@1.20.5":
+  version "1.20.5"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.20.5.tgz#9bf389b16183222d69f2d28dbdffee2e6186e869"
+  integrity sha512-Lif1Dly/ocyzojufFmVRMuQ80MxY/Ul0aBSIjq88H/4xv+9Fjp9q0z5nZSvJoXGs9z+nUtSXylGzd6KstfBOoQ==
   dependencies:
     isomorphic-fetch "^3.0.0"
 
