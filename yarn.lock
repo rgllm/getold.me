@@ -2085,12 +2085,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.20.0.tgz#b58bb8610afff3d096b2d5dd03e34569a9a04243"
-  integrity sha512-cSBZk8pY09oR8CV68fV9xYg27ivA+XLsOcISrB8rOnzoZVNNJmTusx2lrQgru9maZy0DYNK0LZRTPk9c/K+HHw==
+react-uploader@3.22.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.22.0.tgz#37fa625452fb4d1d7bd3174d152c4266f5959c0c"
+  integrity sha512-nK271Ff07MO24I+wuV52ex2BF8FgOs6AJXVVXBVTh8F6JgHK972R1lOFShF6HRCEAH/hOOv0t3/mU1Ct/RTTVg==
   dependencies:
-    uploader "^3.20.0"
+    uploader "^3.22.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2510,10 +2510,10 @@ uploader@3.19.0:
     preact "^10.6.5"
     upload-js "^2.13.0"
 
-uploader@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.20.0.tgz#b3fc3b7fc9e3d7ae222f7983a4ef11db3ff7220f"
-  integrity sha512-HQnjMgmDLylHVC3oaPxJ+1/S9vBDMXR0pcA6gHpQ61riXLT6wrgRigBtSob4xJ3zdYx6uPFP8jz+1tZxKhINFQ==
+uploader@^3.22.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.22.0.tgz#43010418d7c0706574863245134bca861785ffac"
+  integrity sha512-qMC6yJinxmUiInca8pjBRUCvWIy7ywihPipUzDkqpPVCXQ2bslVz4RAWn2siWpmn3oUADOQ1jvo+Q4lg/rzD8Q==
   dependencies:
     classnames "^2.2.6"
     preact "^10.6.5"
