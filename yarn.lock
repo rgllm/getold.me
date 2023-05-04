@@ -2493,16 +2493,7 @@ upload-js@^2.14.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.22.0:
-  version "3.22.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.22.0.tgz#43010418d7c0706574863245134bca861785ffac"
-  integrity sha512-qMC6yJinxmUiInca8pjBRUCvWIy7ywihPipUzDkqpPVCXQ2bslVz4RAWn2siWpmn3oUADOQ1jvo+Q4lg/rzD8Q==
-  dependencies:
-    classnames "^2.2.6"
-    preact "^10.6.5"
-    upload-js "^2.14.0"
-
-uploader@^3.23.0:
+uploader@3.23.0, uploader@^3.23.0:
   version "3.23.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.23.0.tgz#813783cbeac0ccc7f54ea8f37652d2465830c499"
   integrity sha512-GBiHk/y/Qjhazq7D7sYneROrucY8uaq+Sgcl/WoUV5VLb2/u0iUf5MNotJUhI+f17ylkMe8hoOckfPnvhft2Dg==
