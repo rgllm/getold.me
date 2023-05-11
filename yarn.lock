@@ -2085,12 +2085,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.27.0:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.27.0.tgz#d584933b8eafab515fbfe9c1fc4d2b440dcf6b4b"
-  integrity sha512-SXy+Y/DnqL5IK+/mwKTsXliyFNvW7btxzQxCT3X21aY9LZK6AyvNmWCYvb/2oMJGaOFRKiU0tek1jfKDYPkF/Q==
+react-uploader@3.29.0:
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.29.0.tgz#f6c57b7e88911105b2b72c1979ec30163631ba9d"
+  integrity sha512-5jpGZmnKF74YMhg0SMGZF8xYLIBGA7g0nwATYpwevBT0Ztto34nyDU1F11bOOwRJ3ehN6ydL4so7NAdf+aeYFQ==
   dependencies:
-    uploader "^3.27.0"
+    uploader "^3.29.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2485,14 +2485,6 @@ update-browserslist-db@^1.0.10:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-upload-js@^2.16.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.16.0.tgz#874acb940b7da07924d896c701af1da11a02c1e2"
-  integrity sha512-k4FAeapW2NnGhvvyajTItar/BQ/0kg9+31hVXqQsylUlN3IYnEo7IH6ImOfz36Poz2umB6agfTeAPJfAuXQCdQ==
-  dependencies:
-    "@upload-io/upload-api-client-upload-js" "^2.15.0"
-    progress-smoother "^1.4.0"
-
 upload-js@^2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.20.0.tgz#b8a27f0d5f7c6658ef96f45b8b1521b6b9636740"
@@ -2501,7 +2493,7 @@ upload-js@^2.20.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.29.0:
+uploader@3.29.0, uploader@^3.29.0:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.29.0.tgz#37564901018dfe64c288045464e369e71c56b17f"
   integrity sha512-rbkkMsX8Wt4CdJ6EuslhQEFKvtLUlBx51kSTsYQDas9mhmyaCWGAsL1+ZQr2WEqe6sQmErGrt5KYZfdJfgxnYA==
@@ -2509,15 +2501,6 @@ uploader@3.29.0:
     classnames "^2.2.6"
     preact "^10.6.5"
     upload-js "^2.20.0"
-
-uploader@^3.27.0:
-  version "3.27.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.27.0.tgz#29bf890835dc4ac7427b0e874b15169921d60226"
-  integrity sha512-s+pZlVBO8UuFdmkueK5BUMJQU+DNVD/b2o0syo8V8jhx4VQkc2Mv5PQoHJdU1Hn0uOA12j59F+th/RUB7n90UA==
-  dependencies:
-    classnames "^2.2.6"
-    preact "^10.6.5"
-    upload-js "^2.16.0"
 
 uri-js@^4.2.2:
   version "4.4.1"
