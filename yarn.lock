@@ -1663,6 +1663,11 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
@@ -2079,12 +2084,13 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.33.0:
-  version "3.33.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.33.0.tgz#7b4532679167df770a1e7c0a1d5d448fdb2d8da7"
-  integrity sha512-JQQw41QtwWRmCfQXWzsPgKXAjXSNaYPPc4jRAMAQ1R3EQ9i64GVaz5TWPZ1a3GyS2auO9Q1YncyZRho6pc2lWw==
+react-uploader@3.35.0:
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.35.0.tgz#78c457ca6c2d95098a66e25b623f31a32f9d2a8f"
+  integrity sha512-Q2POyTsHC/UqFnBxLVDbJzTTjPyOQ4UccK0F3z92kDRwNdNWtNZW+6v/e27/lDqX1Q+bYRCN5GEBlwIzNkTlzA==
   dependencies:
-    uploader "^3.34.0"
+    lodash.isequal "^4.5.0"
+    uploader "^3.35.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2487,19 +2493,10 @@ upload-js@^2.20.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.35.0:
+uploader@3.35.0, uploader@^3.35.0:
   version "3.35.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.35.0.tgz#8039262dfd7470b5533ffe102b0cbdc32b7180e5"
   integrity sha512-UlSRVXLkLwzGKCEzazPrYXnJiYwD4/s6voSbOt1ffdgbyhDK/3NAOsZqinNU6zqvOB6z7ruVQniVuZPvGF/W1w==
-  dependencies:
-    classnames "^2.2.6"
-    preact "^10.6.5"
-    upload-js "^2.20.0"
-
-uploader@^3.34.0:
-  version "3.34.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.34.0.tgz#9060e4a78ef4f8ef18923f8e5934f12026ec5b3d"
-  integrity sha512-IUYa47rGQ3lV3qzHGGTnyv/nkQSKWn+oiILQ8e5zyftUAZCRWWgl9abNaX19IA/q9IlmbfU+qUaREQdebvlfCQ==
   dependencies:
     classnames "^2.2.6"
     preact "^10.6.5"
