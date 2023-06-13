@@ -26,7 +26,7 @@
     "uploader": "3.36.0"
   },
   "devDependencies": {
-    "@types/node": "18.16.17",
+    "@types/node": "18.16.18",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "@types/request-ip": "0.0.38",
