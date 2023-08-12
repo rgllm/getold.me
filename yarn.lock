@@ -2510,14 +2510,6 @@ update-browserslist-db@^1.0.10:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-upload-js@^2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.20.0.tgz#b8a27f0d5f7c6658ef96f45b8b1521b6b9636740"
-  integrity sha512-pwu7NejaJrqQrv8w4gfYRLlqgzJXggZs7pleV2kMHL/n8mCDWTX19j5WS/+bBZbtuGTZLtWjt+HJtyxXxiumIA==
-  dependencies:
-    "@upload-io/upload-api-client-upload-js" "^2.15.0"
-    progress-smoother "^1.4.0"
-
 upload-js@^2.21.0:
   version "2.21.0"
   resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.21.0.tgz#60f238935545627c7362079db80ad95e86f0ea8b"
@@ -2526,16 +2518,7 @@ upload-js@^2.21.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
-uploader@3.45.0:
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.45.0.tgz#b61b31c36e0cb12db2b1694cfb668a33fc3d87c4"
-  integrity sha512-8SP3LL8Aj7foIRNP+MTDk3WjWjsjBiZkGBjTmW5eb93qY6JNia3QYnhFg0XfFkyfU3I/aGlKt97DqXJ2gpH3HA==
-  dependencies:
-    classnames "^2.2.6"
-    preact "^10.6.5"
-    upload-js "^2.20.0"
-
-uploader@^3.46.0:
+uploader@3.46.0, uploader@^3.46.0:
   version "3.46.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.46.0.tgz#7beefa271ee7e49d19648b40f14280d025bc11ea"
   integrity sha512-FK8GR9ZBIZH4SUeSQjRqdvXNCJMRcugiXcUlgUWCPgZesLSTais7gbdV+HRLJQtxAyJTfoU573xajN5LycjKOg==
