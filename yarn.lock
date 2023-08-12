@@ -2110,13 +2110,13 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-uploader@3.38.0:
-  version "3.38.0"
-  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.38.0.tgz#4e5a017dfef25c72de66a11d6e10917d20a6866b"
-  integrity sha512-RGnokUxbZCx/FUDroQRzukeyw2bz6us2giwvFR6H6qzxhlcNeXar1VHyUYjRc+ztQBhBvfFO2PwrvLX9nx6qaQ==
+react-uploader@3.39.0:
+  version "3.39.0"
+  resolved "https://registry.yarnpkg.com/react-uploader/-/react-uploader-3.39.0.tgz#e855f083b26c0883b08a0c7297a4cf4c9b78b34f"
+  integrity sha512-6E0crQ/fRvU4FT9sus/MPaKmnOB2gDB4+Fi+OIU8q78AJ4eQx60+FVugF7cWG4Y6mzTgUuKpmqlsSDZtJY9uPA==
   dependencies:
     lodash.isequal "^4.5.0"
-    uploader "^3.38.0"
+    uploader "^3.46.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -2518,6 +2518,14 @@ upload-js@^2.20.0:
     "@upload-io/upload-api-client-upload-js" "^2.15.0"
     progress-smoother "^1.4.0"
 
+upload-js@^2.21.0:
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/upload-js/-/upload-js-2.21.0.tgz#60f238935545627c7362079db80ad95e86f0ea8b"
+  integrity sha512-N7tcrGZhSXRTWdP+MB9B2MNZ4q7/rVYJul/dehemumuJ56lNfog/4LJMNV1TAMlii3ycD2AQM/sTKH0jIxSBVQ==
+  dependencies:
+    "@upload-io/upload-api-client-upload-js" "^2.15.0"
+    progress-smoother "^1.4.0"
+
 uploader@3.45.0:
   version "3.45.0"
   resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.45.0.tgz#b61b31c36e0cb12db2b1694cfb668a33fc3d87c4"
@@ -2527,14 +2535,14 @@ uploader@3.45.0:
     preact "^10.6.5"
     upload-js "^2.20.0"
 
-uploader@^3.38.0:
-  version "3.38.0"
-  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.38.0.tgz#133daeafe996f92eb42da6f7feb6882b50e02b71"
-  integrity sha512-sNUFd0ZlrMF2wHuzcAt/EtQFIfFBs49skr9sk9mRJMk2EapeWuh55ntpN/yy+ij5OnYAC5OfCIOul1vI12XVog==
+uploader@^3.46.0:
+  version "3.46.0"
+  resolved "https://registry.yarnpkg.com/uploader/-/uploader-3.46.0.tgz#7beefa271ee7e49d19648b40f14280d025bc11ea"
+  integrity sha512-FK8GR9ZBIZH4SUeSQjRqdvXNCJMRcugiXcUlgUWCPgZesLSTais7gbdV+HRLJQtxAyJTfoU573xajN5LycjKOg==
   dependencies:
     classnames "^2.2.6"
     preact "^10.6.5"
-    upload-js "^2.20.0"
+    upload-js "^2.21.0"
 
 uri-js@^4.2.2:
   version "4.4.1"
