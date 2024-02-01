@@ -356,10 +356,10 @@
   dependencies:
     "@upstash/core-analytics" "^0.0.6"
 
-"@upstash/redis@1.28.2":
-  version "1.28.2"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.28.2.tgz#40e8b39e96d20c7309810559089e762fc3e2305f"
-  integrity sha512-e4HmmCji6kE6UnriU92sAVGLQcRYAB4fXSPXls08cjW7zdE/wFaDfhAGi1/T4/wUN50bAy/lpHwW4bMkI2EAcw==
+"@upstash/redis@1.28.3":
+  version "1.28.3"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.28.3.tgz#a93f661a3ee0d51f249df2fed312d7c0256f0708"
+  integrity sha512-IduU0zrxVKO0z4D+usJUP/VZRYkbbbSoAdj4WYwgijjhc1nxhRZEtktZ8ueTyXT4dAatJ+gDKIIbVSVIiB1xBw==
   dependencies:
     crypto-js "^4.2.0"
 
