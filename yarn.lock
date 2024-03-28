@@ -341,33 +341,26 @@
   resolved "https://registry.yarnpkg.com/@upload-io/upload-api-client-upload-js/-/upload-api-client-upload-js-2.18.0.tgz#948cf288ace5ef22a152b37096335fda2ef7cc5c"
   integrity sha512-yPwsRCecXSilYn4q5ZDD4fyI2PVyUcLimv2LQcfpV3hRyzc8t82NuWHYEYpRZa5K68zxw2RljDf30geT1vJN9g==
 
-"@upstash/core-analytics@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@upstash/core-analytics/-/core-analytics-0.0.6.tgz#8680e7697e0f2660c2507bbc56348f5541bb0237"
-  integrity sha512-cpPSR0XJAJs4Ddz9nq3tINlPS5aLfWVCqhhtHnXt4p7qr5+/Znlt1Es736poB/9rnl1hAHrOsOvVj46NEXcVqA==
+"@upstash/core-analytics@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@upstash/core-analytics/-/core-analytics-0.0.7.tgz#ef50b8d44a32fcd6cf6bc6d7bf50870266b308d7"
+  integrity sha512-lC2j5efqb1haX/fpTGaPUx1rue1WUkOZBVHDzCB7eMIVsRdFFp4xiHtyH/G9omiR1zj39fU5SCTWFiKJH3KOpw==
   dependencies:
-    "@upstash/redis" "^1.19.3"
+    "@upstash/redis" "^1.28.3"
 
-"@upstash/ratelimit@0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.4.4.tgz#99b4d9e2428c18ef0946ec347b5f22dac0184e60"
-  integrity sha512-y3q6cNDdcRQ2MRPRf5UNWBN36IwnZ4kAEkGoH3i6OqdWwz4qlBxNsw4/Rpqn9h93+Nx1cqg5IOq7O2e2zMJY1w==
+"@upstash/ratelimit@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-1.0.1.tgz#4dcbd5955f903511b2537e218d4d5258878ec63d"
+  integrity sha512-G9LZ7idhlkuYknbUngCB3qzd7QnkK1xDkFG5jRtEJZuOUS5UKJ0UTKbhalCtp39eX2wu2Ubv8W7HCeaJQOWM0A==
   dependencies:
-    "@upstash/core-analytics" "^0.0.6"
+    "@upstash/core-analytics" "^0.0.7"
 
-"@upstash/redis@1.29.0":
+"@upstash/redis@1.29.0", "@upstash/redis@^1.28.3":
   version "1.29.0"
   resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.29.0.tgz#b1f456765fec4929a7fc547238afc5f3cda92683"
   integrity sha512-kbO5fgMAeUzErnA/SOtaSbAa0dguYhhBT4MZHJ1O8gVl4iK754aC9+rIYY5hsp4nlxeCGfnIDkWpof991c9jjA==
   dependencies:
     crypto-js "^4.2.0"
-
-"@upstash/redis@^1.19.3":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.20.0.tgz#9288d7ea563d879cde689c5883428d446abc8ecd"
-  integrity sha512-jhOfwBF/dZpx0Gd139YB2KTXqkBrB1fksK0jzSqep5QZyN1cfcZUy5QfcSen5EEdYyUSmWefBzNqGWSJustsJg==
-  dependencies:
-    isomorphic-fetch "^3.0.0"
 
 "@vercel/analytics@0.1.11":
   version "0.1.11"
@@ -1616,14 +1609,6 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-isomorphic-fetch@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz#0267b005049046d2421207215d45d6a262b8b8b4"
-  integrity sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==
-  dependencies:
-    node-fetch "^2.6.1"
-    whatwg-fetch "^3.4.1"
-
 jiti@^1.21.0:
   version "1.21.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.0.tgz#7c97f8fe045724e136a397f7340475244156105d"
@@ -1825,13 +1810,6 @@ next@latest:
     "@next/swc-win32-arm64-msvc" "13.1.1"
     "@next/swc-win32-ia32-msvc" "13.1.1"
     "@next/swc-win32-x64-msvc" "13.1.1"
-
-node-fetch@^2.6.1:
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
-  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
-  dependencies:
-    whatwg-url "^5.0.0"
 
 node-releases@^2.0.14:
   version "2.0.14"
@@ -2467,11 +2445,6 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
-  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
 ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
@@ -2590,24 +2563,6 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
-
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
-  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
-
-whatwg-fetch@^3.4.1:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
-  integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
-  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
